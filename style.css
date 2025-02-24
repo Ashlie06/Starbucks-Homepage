@@ -1,0 +1,231 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-5');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    font-family: 'Helvetica Neue',Arial, Helvetica, sans-serif;
+}
+.navbar{
+    height: 88px;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(124, 124, 124, 0.349);
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1450px;
+    margin: 0 auto;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.nav-logo{
+    max-width: 50px;
+}
+.nav-logo img{
+    width: 100%;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+.nav-links .link a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.location-btn{
+    margin-right: 1.3rem;
+}
+.location-btn span{
+    padding-right: 8px;
+}
+.location-btn a{
+    text-decoration: none;
+    color: black;
+}
+.sign-in, .join-btn{
+    padding: 7px 16px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 1em;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.sign-in{
+    border: 1px solid rgb(31, 31, 31);
+    background-color: transparent;
+}
+.sign-in:hover{
+    background-color: #e2e2e2;
+}
+.join-btn{
+    border: none;
+    background-color: black;
+    color: #fff;
+}
+.join-btn:hover{
+    background-color: rgb(105, 105, 105);
+}
+.container-box{
+    max-width: 1450px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: center;
+    justify-content: space-between;
+}
+.box-img{
+    width: 100%;
+}
+.box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box-text{
+    padding: 2rem 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 98, 66);
+}
+.box-header{
+    max-width: 400px;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    line-height: 4rem;
+}
+ .box-content{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+    line-height: 2rem;
+    max-width: 500px;
+    padding: 0.8rem;
+}
+.btn{
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.grid-reversed .box-text{
+    background-color: rgb(214, 221, 199);
+}
+.grid-reversed .box-header, 
+.grid-reversed .box-content,
+.grid-reversed .btn {
+    color: rgb(50, 71, 47);
+}
+.grid-reversed .btn{
+    border: 1px solid rgb(50, 71, 47); ;
+}
+.grid-reversed .box-img {
+    order: 2;
+}
+.grid-reversed .box-text {
+    order: 1;
+}
+
+.third-box{
+    height: 428px;
+}
+.third-box .box-text{
+    background-color: rgb(95, 70, 51);
+}
+.third-box .box-header{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.third-box .box-content{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.divider{
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(223, 223, 223);
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.253);
+}
+.divider-text{
+    width: 100%;
+    max-width: 646px;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin: 2rem 0;
+}
+.footer-container{
+    width: 100%;
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 1rem 0.8rem;
+}
+.footer-info{
+    display: flex;
+    gap: 3rem;
+    border-bottom: 2px solid rgba(216, 216, 216, 0.507);
+}
+.footer-column{
+    max-width: 190px;
+}
+.footer-column .header{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.footer-column .footer-links{
+    margin: 2rem 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.footer-links li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.58);
+}
+.socials-link{
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.socials-link a{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+}
