@@ -191,7 +191,7 @@ body{
     width: 100%;
     max-width: 1480px;
     margin: 0 auto;
-    padding: 1rem 0.8rem;
+    padding: 2rem 0.8rem;
 }
 .footer-info{
     display: flex;
@@ -216,6 +216,12 @@ body{
 .footer-links li a{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.58);
+    line-height: 2rem;
+    transition: all 0.3s ease;
+}
+
+.footer-links li a:hover{
+    color:rgba(0, 0, 0, 0.87); 
 }
 .socials-link{
     margin-top: 1.5rem;
@@ -223,9 +229,34 @@ body{
     align-items: center;
     gap: 1rem;
 }
-
 .socials-link a{
     text-decoration: none;
     color: black;
     font-size: 2rem;
+    transition: all 0.3s ease-out;
+}
+.socials-link a:hover{
+    background-color: grey;
+    border-radius: 30px;
+}
+.secondary-links{
+    margin-top: 2rem;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.secondary-links a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+    transition: all 0.3s ease;
+    font-weight: 400;
+}
+.secondary-links a:hover{
+    text-decoration: underline;
+}
+
+.copyright{
+    padding: 2rem 0;
+    color:rgba(0, 0, 0, 0.58)
 }
