@@ -43,6 +43,10 @@ body{
     text-decoration: none;
     color: black;
     font-weight: 500;
+    transition: all 0.3s ease;
+}
+.nav-links .link a:hover{
+    color: rgb(0, 117, 74);
 }
 .nav-right{
     display: flex;
@@ -54,10 +58,15 @@ body{
 }
 .location-btn span{
     padding-right: 8px;
+    font-size: 1rem;
 }
 .location-btn a{
     text-decoration: none;
     color: black;
+    transition: all 0.3s ease;
+}
+.location-btn a:hover{
+    color: rgb(0, 117, 74);
 }
 .sign-in, .join-btn{
     padding: 7px 16px;
@@ -136,6 +145,11 @@ body{
     font-weight: 700;
     font-size: 1rem;
     margin-top: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.container-box .btn:hover{
+    background-color: rgb(1, 71, 48); ;
 }
 .grid-reversed .box-text{
     background-color: rgb(214, 221, 199);
@@ -147,6 +161,9 @@ body{
 }
 .grid-reversed .btn{
     border: 1px solid rgb(50, 71, 47); ;
+}
+.grid-reversed .btn:hover{
+    background-color: rgb(201, 207, 187);
 }
 .grid-reversed .box-img {
     order: 2;
@@ -168,6 +185,9 @@ body{
 .third-box .box-content{
     font-size: 1.2rem;
     font-weight: 400;
+}
+.third-box .btn:hover{
+    background-color: rgb(77, 56, 41) ;
 }
 .divider{
     width: 100%;
@@ -191,7 +211,7 @@ body{
     width: 100%;
     max-width: 1480px;
     margin: 0 auto;
-    padding: 2rem 0.8rem;
+    padding: 1.5rem 0.8rem;
 }
 .footer-info{
     display: flex;
